@@ -1,0 +1,52 @@
+
+/* container that displays grid with 5 columns */
+.container1{
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+
+
+}
+
+/* header that takes the entire top */
+header{
+    grid-column: 1/6;
+    border: 3px solid darkred;
+    padding:5%;
+
+}
+
+/* side bar */
+sidebar{
+    grid-column: 4/6;
+    border: 3px solid blue;
+    padding:5%;
+}
+
+/* maincontent */
+maincontent{
+    grid-column: 2/4;
+    border: 3px solid green;
+    padding:5%;
+}
+
+/* twin 1 */
+twin1{
+    grid-column:2/4 ;
+    border: 3px solid teal;
+    padding:5%;
+}
+
+/* twin 2 */
+twin2{
+    grid-column: 4/5;
+    border: 3px solid red;
+    padding:5%;
+}
+
+
+/* footer that goes through a;ll the columns */
+footer{
+    grid-column: 1/6;
+    border: 3px solid green;
+    padding:5%;
+}
